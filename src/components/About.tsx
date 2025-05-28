@@ -11,31 +11,40 @@ const About = () => {
                 <h2 className="text-4xl md:text-5xl font-playfair font-bold text-navy-600 mb-4">
                   Sobre Vilson Rauch
                 </h2>
-                <h3 className="text-xl text-corporate-500 font-semibold mb-6">
-                  Especialista em Gestão Patrimonial e Consultoria Independente
-                </h3>
+                <div className="w-16 h-1 bg-gold-500 mb-6"></div>
               </div>
 
               <p className="text-lg text-gray-700 leading-relaxed">
-                Vilson Rauch é consultor de valores mobiliários credenciado pela CVM, especialista em wealth planning com reconhecida experiência no mercado financeiro brasileiro. Como palestrante ativo, compartilha conhecimento sobre estratégias avançadas de investimento e planejamento patrimonial.
+                Vilson Rauch é economista, contador e planejador financeiro, com sólida experiência 
+                na consultoria independente de investimentos e gestão patrimonial para indivíduos, 
+                famílias e empresas.
               </p>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-financial-500">
-                <h4 className="font-semibold text-navy-600 mb-3">Abordagem Profissional:</h4>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Atua com foco na excelência técnica e rigor ético, oferecendo soluções que integram 
+                planejamento financeiro, estruturação patrimonial e estratégias avançadas de investimento.
+              </p>
+
+              <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-corporate-500">
+                <h4 className="font-semibold text-navy-600 mb-3">Modelo de Atendimento:</h4>
                 <p className="text-gray-700">
-                  Consultoria totalmente independente, sem conflitos de interesse, focada em soluções personalizadas para construção e preservação de patrimônio.
+                  Personalizado, independente e orientado à construção e preservação do patrimônio.
                 </p>
               </div>
 
-              {/* Stats */}
-              <div className="grid grid-cols-2 gap-6 mt-8">
+              {/* Professional Stats */}
+              <div className="grid grid-cols-3 gap-4 mt-8">
                 <div className="text-center p-4 bg-white rounded-lg shadow-sm">
-                  <div className="text-2xl font-bold text-financial-500">CVM</div>
-                  <div className="text-sm text-gray-600">Credenciado</div>
+                  <div className="text-xl font-bold text-corporate-500">Economista</div>
+                  <div className="text-sm text-gray-600">Formação</div>
                 </div>
                 <div className="text-center p-4 bg-white rounded-lg shadow-sm">
-                  <div className="text-2xl font-bold text-corporate-500">100%</div>
-                  <div className="text-sm text-gray-600">Independente</div>
+                  <div className="text-xl font-bold text-financial-500">Contador</div>
+                  <div className="text-sm text-gray-600">Especialização</div>
+                </div>
+                <div className="text-center p-4 bg-white rounded-lg shadow-sm">
+                  <div className="text-xl font-bold text-navy-600">Planejador</div>
+                  <div className="text-sm text-gray-600">Financeiro</div>
                 </div>
               </div>
             </div>
