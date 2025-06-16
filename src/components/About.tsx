@@ -1,5 +1,4 @@
 
-
 const About = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -13,14 +12,14 @@ const About = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
-          <div className="mb-8">
+          <div className="mb-12">
             <h2 className="text-4xl md:text-5xl font-playfair font-bold text-navy-600 mb-4">
               Sobre Vilson Rauch
             </h2>
             <div className="w-16 h-1 bg-gold-500 mb-6"></div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 items-start">
+          <div className="grid md:grid-cols-2 gap-12 items-start mb-12">
             {/* Image */}
             <div className="animate-fade-in">
               <img 
@@ -30,7 +29,7 @@ const About = () => {
               />
             </div>
 
-            {/* Content - First part alongside image */}
+            {/* Content - Text alongside image */}
             <div className="space-y-6 animate-fade-in">
               <p className="text-lg text-gray-700 leading-relaxed">
                 Vilson Rauch é estrategista financeiro com ampla experiência em consultoria independente e gestão patrimonial. Atua com foco na excelência técnica e no rigor ético, oferecendo soluções integradas em finanças, renda e investimentos para indivíduos, famílias e empresas.
@@ -39,21 +38,21 @@ const About = () => {
               <p className="text-lg text-gray-700 leading-relaxed">
                 Com mais de duas décadas de atuação na gestão industrial, Vilson Rauch desenvolveu uma visão estratégica e operacional única, que agora aplica à consultoria personalizada para indivíduos e empresas.
               </p>
+
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Essa trajetória proporciona uma compreensão aprofundada dos desafios e oportunidades do ambiente corporativo, permitindo a entrega de soluções alinhadas às necessidades reais de cada cliente.
+              </p>
+
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Coordenando um time multidisciplinar de especialistas, assegura que cada projeto receba uma abordagem integrada, combinando competências em economia, contabilidade, investimentos, excelência operacional e gestão empresarial. Essa sinergia resulta em estratégias robustas, eficazes e adaptadas ao contexto específico, fundamentadas em experiência prática, conhecimento técnico e compromisso com resultados de excelência.
+              </p>
             </div>
           </div>
 
-          {/* Content - Second part below spanning full width */}
-          <div className="mt-12 space-y-6 animate-fade-in">
-            <p className="text-lg text-gray-700 leading-relaxed">
-              Essa trajetória proporciona uma compreensão aprofundada dos desafios e oportunidades do ambiente corporativo, permitindo a entrega de soluções alinhadas às necessidades reais de cada cliente.
-            </p>
-
-            <p className="text-lg text-gray-700 leading-relaxed">
-              Coordenando um time multidisciplinar de especialistas, assegura que cada projeto receba uma abordagem integrada, combinando competências em economia, contabilidade, investimentos, excelência operacional e gestão empresarial. Essa sinergia resulta em estratégias robustas, eficazes e adaptadas ao contexto específico, fundamentadas em experiência prática, conhecimento técnico e compromisso com resultados de excelência.
-            </p>
-
+          {/* CTA Section */}
+          <div className="animate-fade-in">
             <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-corporate-500">
-              <p className="text-gray-700 mb-6">
+              <p className="text-gray-700 mb-6 text-center text-lg font-medium">
                 Personalizado, independente e orientado à construção e preservação do patrimônio.
               </p>
               
@@ -87,4 +86,3 @@ const About = () => {
 };
 
 export { About };
-
