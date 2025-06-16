@@ -1,4 +1,3 @@
-
 const About = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -12,7 +11,16 @@ const About = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            {/* Content */}
+            {/* Image - Now first */}
+            <div className="animate-fade-in">
+              <img 
+                src="/lovable-uploads/156b19ed-ee75-400b-bcc6-9f9e030f485e.png" 
+                alt="Vilson Rauch - Consultor" 
+                className="w-full rounded-lg shadow-xl object-cover object-top h-96"
+              />
+            </div>
+
+            {/* Content - Now second */}
             <div className="space-y-6 animate-fade-in">
               <div>
                 <h2 className="text-4xl md:text-5xl font-playfair font-bold text-navy-600 mb-4">
@@ -63,15 +71,6 @@ const About = () => {
                   </button>
                 </div>
               </div>
-            </div>
-
-            {/* Single Image */}
-            <div className="animate-fade-in">
-              <img 
-                src="/lovable-uploads/156b19ed-ee75-400b-bcc6-9f9e030f485e.png" 
-                alt="Vilson Rauch - Consultor" 
-                className="w-full rounded-lg shadow-xl object-cover object-top h-96"
-              />
             </div>
           </div>
         </div>
