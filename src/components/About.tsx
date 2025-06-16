@@ -1,4 +1,3 @@
-
 const About = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -33,7 +32,7 @@ const About = () => {
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
-                Coordenando, quando necessário, um time multidisciplinar de especialistas, assegura que cada projeto receba uma abordagem integrada, combinando competências em economia, contabilidade, investimentos, excelência operacional e gestão empresarial. Essa sinergia resulta em estratégias robustas, eficazes e adaptadas ao contexto específico, fundamentadas em experiência prática, conhecimento técnico e compromisso com resultados de excelência.
+                Coordenando um time multidisciplinar de especialistas, assegura que cada projeto receba uma abordagem integrada, combinando competências em economia, contabilidade, investimentos, excelência operacional e gestão empresarial. Essa sinergia resulta em estratégias robustas, eficazes e adaptadas ao contexto específico, fundamentadas em experiência prática, conhecimento técnico e compromisso com resultados de excelência.
               </p>
 
               <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-corporate-500">
