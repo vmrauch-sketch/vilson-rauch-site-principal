@@ -1,5 +1,11 @@
 
+
 const SpecializedProtocol = () => {
+  const handleProtocolClick = () => {
+    const message = encodeURIComponent("Olá! Gostaria de conhecer o protocolo especializado 'Mais Renda, Menos Plantão' para profissionais da medicina e saúde.");
+    window.open(`https://wa.me/5511949566290?text=${message}`, '_blank');
+  };
+
   return (
     <section className="py-20 bg-gold-50" id="protocolo-especializado">
       <div className="container mx-auto px-6">
@@ -17,7 +23,10 @@ const SpecializedProtocol = () => {
               Desenvolvemos estratégias que maximizam sua renda e otimizam seu tempo, permitindo 
               maior qualidade de vida com segurança financeira.
             </p>
-            <button className="bg-gold-500 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gold-600 transition-all duration-300 shadow-lg">
+            <button 
+              onClick={handleProtocolClick}
+              className="bg-gold-500 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gold-600 transition-all duration-300 shadow-lg"
+            >
               Clique aqui para conhecer o protocolo
             </button>
           </div>
@@ -28,3 +37,4 @@ const SpecializedProtocol = () => {
 };
 
 export { SpecializedProtocol };
+
