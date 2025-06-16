@@ -1,5 +1,4 @@
 
-
 const Contact = () => {
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent("Olá! Gostaria de agendar uma consultoria personalizada sobre planejamento financeiro e gestão patrimonial.");
@@ -32,24 +31,6 @@ const Contact = () => {
               </svg>
               Falar com Vilson no WhatsApp
             </button>
-
-            <div className="mt-16 p-8 bg-white/10 backdrop-blur-sm rounded-xl">
-              <h3 className="text-lg font-semibold text-white mb-4">Modelo de Atendimento</h3>
-              <div className="grid md:grid-cols-3 gap-6 text-white/90">
-                <div>
-                  <div className="text-2xl font-bold text-gold-500 mb-2">Profissional</div>
-                  <div className="text-sm">Tom especializado e técnico</div>
-                </div>
-                <div>
-                  <div className="text-2xl font-bold text-gold-500 mb-2">Direto</div>
-                  <div className="text-sm">Comunicação objetiva e clara</div>
-                </div>
-                <div>
-                  <div className="text-2xl font-bold text-gold-500 mb-2">Elegante</div>
-                  <div className="text-sm">Abordagem sofisticada e personalizada</div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -58,4 +39,3 @@ const Contact = () => {
 };
 
 export { Contact };
-
