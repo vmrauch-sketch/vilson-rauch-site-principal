@@ -1,5 +1,4 @@
 
-
 import { 
   BarChart3, 
   Building2, 
@@ -70,6 +69,7 @@ const HowWeWork = () => {
             <h2 className="text-4xl md:text-5xl font-playfair font-bold text-navy-600 mb-4">
               Como Atuamos
             </h2>
+            <div className="w-16 h-1 bg-gold-500 mb-6 mx-auto"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Áreas de especialização e atuação
             </p>
@@ -104,4 +104,3 @@ const HowWeWork = () => {
 };
 
 export { HowWeWork };
-

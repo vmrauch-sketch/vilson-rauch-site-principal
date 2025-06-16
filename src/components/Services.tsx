@@ -33,6 +33,7 @@ const Services = () => {
             <h2 className="text-4xl md:text-5xl font-playfair font-bold text-navy-600 mb-4">
               Nossos Serviços
             </h2>
+            <div className="w-16 h-1 bg-gold-500 mb-6 mx-auto"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Soluções completas em consultoria financeira e gestão patrimonial
             </p>
