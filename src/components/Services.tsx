@@ -1,3 +1,4 @@
+
 const Services = () => {
   const handleEbookFIDCClick = () => {
     const message = encodeURIComponent("Olá! Gostaria de baixar o ebook sobre FIDC e estratégias tributárias.");
@@ -25,7 +26,7 @@ const Services = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-playfair font-bold text-navy-600 mb-4">
-              Serviços Oferecidos
+              Nossos Serviços
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Soluções completas em consultoria financeira e gestão patrimonial
