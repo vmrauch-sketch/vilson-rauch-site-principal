@@ -10,7 +10,8 @@ import {
   Gavel, 
   Gem, 
   Lock, 
-  ShieldCheck 
+  ShieldCheck,
+  Globe
 } from "lucide-react";
 
 const HowWeWork = () => {
@@ -58,6 +59,10 @@ const HowWeWork = () => {
     {
       title: "Seguros e Proteções, incluindo Responsabilidade Civil Customizada",
       icon: ShieldCheck
+    },
+    {
+      title: "Internacionalização de Patrimônio",
+      icon: Globe
     }
   ];
 
