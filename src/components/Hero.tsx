@@ -1,5 +1,6 @@
 
 
+
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden" style={{ background: 'linear-gradient(to bottom right, #1C2D50, #152642, #0F1E34)' }}>
@@ -28,7 +29,7 @@ const Hero = () => {
           </h1>
 
           {/* Impact Phrase */}
-          <blockquote className="text-xl md:text-2xl font-inter italic max-w-4xl mx-auto leading-relaxed mb-8 animate-fade-in" style={{ color: '#0F1F3D' }}>
+          <blockquote className="text-xl md:text-2xl font-inter italic max-w-4xl mx-auto leading-relaxed mb-8 animate-fade-in text-white px-6 py-4 rounded-lg" style={{ backgroundColor: '#0F1F3D' }}>
             "Cuidando do presente e futuro com estratégia, excelência e valor."
           </blockquote>
         </div>
@@ -45,4 +46,5 @@ const Hero = () => {
 };
 
 export { Hero };
+
 
