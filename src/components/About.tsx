@@ -37,7 +37,6 @@ const About = () => {
               </p>
 
               <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-corporate-500">
-                <h4 className="font-semibold text-navy-600 mb-3">Modelo de Atendimento:</h4>
                 <p className="text-gray-700 mb-6">
                   Personalizado, independente e orientado à construção e preservação do patrimônio.
                 </p>
