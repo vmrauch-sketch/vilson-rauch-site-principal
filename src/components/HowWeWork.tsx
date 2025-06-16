@@ -70,7 +70,7 @@ const HowWeWork = () => {
               <h2 className="text-4xl md:text-5xl font-playfair font-bold text-navy-600 mb-4">
                 Como Atuamos
               </h2>
-              <div className="absolute bottom-2 left-0 w-full h-1 bg-gold-500"></div>
+              <div className="absolute bottom-2 left-0 w-16 h-1 bg-gold-500"></div>
             </div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mt-8">
               Áreas de especialização e atuação

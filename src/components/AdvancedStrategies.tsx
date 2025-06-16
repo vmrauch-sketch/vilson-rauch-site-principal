@@ -59,10 +59,13 @@ const AdvancedStrategies = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-playfair font-bold text-navy-600 mb-4">
-              Estratégias Avançadas
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            <div className="relative inline-block">
+              <h2 className="text-4xl md:text-5xl font-playfair font-bold text-navy-600 mb-4">
+                Estratégias Avançadas
+              </h2>
+              <div className="absolute bottom-2 left-0 w-16 h-1 bg-gold-500"></div>
+            </div>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mt-8">
               Desenvolvemos soluções além do planejamento tradicional, integrando estratégias 
               personalizadas para cada perfil, objetivos e necessidades específicas.
             </p>
