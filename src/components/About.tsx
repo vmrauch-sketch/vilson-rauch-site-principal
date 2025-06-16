@@ -1,4 +1,5 @@
 
+
 const About = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -74,7 +75,7 @@ const About = () => {
                   onClick={() => scrollToSection('pessoa-juridica')}
                   className="bg-financial-500 text-white px-6 py-3 rounded-lg hover:bg-financial-600 transition-all duration-300 font-medium"
                 >
-                  Pessoa Jurídica (Empresas)
+                  Pessoa Jurídica
                 </button>
               </div>
             </div>
@@ -86,3 +87,4 @@ const About = () => {
 };
 
 export { About };
+
