@@ -1,6 +1,4 @@
 
-
-
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden" style={{ background: '#0F1F3D' }}>
@@ -16,7 +14,7 @@ const Hero = () => {
           {/* Profile Image */}
           <div className="mb-8 animate-fade-in">
             <img 
-              src="/lovable-uploads/eb65e4ba-fa92-47af-b094-feb7757fa44f.png" 
+              src="/lovable-uploads/8c1233bc-8a84-4c25-856d-db026f518fa5.png" 
               alt="Vilson Rauch" 
               className="w-64 h-64 rounded-full mx-auto object-cover object-center border-4 border-white/20 shadow-2xl"
               style={{ objectPosition: 'center 20%' }}
@@ -46,5 +44,3 @@ const Hero = () => {
 };
 
 export { Hero };
-
-
