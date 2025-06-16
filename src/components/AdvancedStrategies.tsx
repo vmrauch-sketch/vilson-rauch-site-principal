@@ -1,45 +1,56 @@
 
+import { 
+  Building2, 
+  TrendingUp, 
+  Shield, 
+  Zap, 
+  Stethoscope, 
+  Gavel, 
+  Umbrella, 
+  Lock 
+} from "lucide-react";
+
 const AdvancedStrategies = () => {
   const strategies = [
     {
       title: "Estruturação de Holdings",
       description: "Para eficiência fiscal e proteção patrimonial",
-      icon: "🏛️"
+      icon: <Building2 size={32} className="text-navy-600" />
     },
     {
       title: "Modelagem de FIDCs",
       description: "Estruturação e gestão de fundos de investimento",
-      icon: "📈"
+      icon: <TrendingUp size={32} className="text-navy-600" />
     },
     {
       title: "Planejamento Sucessório Robusto",
       description: "Transmissão patrimonial eficiente e segura",
-      icon: "🔒"
+      icon: <Shield size={32} className="text-navy-600" />
     },
     {
       title: "Estratégias de Alavancagem Controlada",
       description: "Maximização de retornos com gestão de riscos",
-      icon: "⚡"
+      icon: <Zap size={32} className="text-navy-600" />
     },
     {
       title: "Atendimento Especializado para Profissionais da Saúde",
       description: "Soluções específicas para médicos e profissionais de saúde",
-      icon: "⚕️"
+      icon: <Stethoscope size={32} className="text-navy-600" />
     },
     {
       title: "Leilão de Crédito",
       description: "Ferramenta de otimização financeira e redução de custos",
-      icon: "🔨"
+      icon: <Gavel size={32} className="text-navy-600" />
     },
     {
       title: "Análise de Previdência Privada",
       description: "Personalizada conforme perfil e objetivos",
-      icon: "🛡️"
+      icon: <Umbrella size={32} className="text-navy-600" />
     },
     {
       title: "Seguros e Proteções",
       description: "Incluindo responsabilidade civil customizada",
-      icon: "🔐"
+      icon: <Lock size={32} className="text-navy-600" />
     }
   ];
 
@@ -64,7 +75,7 @@ const AdvancedStrategies = () => {
                 className="bg-navy-50 border border-navy-100 p-6 rounded-xl hover:bg-navy-100 transition-all duration-300 animate-fade-in group shadow-sm"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="text-4xl mb-4">{strategy.icon}</div>
+                <div className="mb-4">{strategy.icon}</div>
                 <h3 className="text-lg font-bold text-navy-600 mb-3 group-hover:text-corporate-600 transition-colors">
                   {strategy.title}
                 </h3>
