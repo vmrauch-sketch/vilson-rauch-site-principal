@@ -13,12 +13,16 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           {/* Profile Image */}
           <div className="mb-8 animate-fade-in">
-            <img 
-              src="/lovable-uploads/8c1233bc-8a84-4c25-856d-db026f518fa5.png" 
-              alt="Vilson Rauch" 
-              className="w-64 h-64 rounded-full mx-auto object-cover object-center border-4 border-white/20 shadow-2xl"
-              style={{ objectPosition: 'center 20%' }}
-            />
+            <div className="relative w-64 h-64 mx-auto">
+              {/* Blue background circle */}
+              <div className="absolute inset-0 bg-navy-500 rounded-full"></div>
+              <img 
+                src="/lovable-uploads/8c1233bc-8a84-4c25-856d-db026f518fa5.png" 
+                alt="Vilson Rauch" 
+                className="relative w-full h-full rounded-full object-cover object-center border-4 border-white/20 shadow-2xl"
+                style={{ objectPosition: 'center 20%' }}
+              />
+            </div>
           </div>
 
           {/* Main Title */}
