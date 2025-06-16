@@ -1,4 +1,3 @@
-
 const Services = () => {
   const handleEbookFIDCClick = () => {
     const message = encodeURIComponent("Olá! Gostaria de baixar o ebook sobre FIDC e estratégias tributárias.");
@@ -173,7 +172,7 @@ const Services = () => {
                   <ul className="space-y-2 text-gray-700">
                     <li>• Workshops para equipes e gestores</li>
                     <li>• Mentoria financeira estratégica</li>
-                    <li>• Palestras sobre mercado financeiro</li>
+                    <li>• Palestras sobre Finanças Pessoais</li>
                     <li>• Palestras de empreendedorismo e liderança</li>
                   </ul>
                 </div>
