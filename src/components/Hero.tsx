@@ -1,5 +1,4 @@
 
-
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden" style={{ background: 'linear-gradient(to bottom right, #1C2D50, #152642, #0F1E34)' }}>
@@ -45,4 +44,3 @@ const Hero = () => {
 };
 
 export { Hero };
-
