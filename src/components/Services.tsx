@@ -1,3 +1,4 @@
+
 import { 
   User, 
   Building, 
@@ -27,7 +28,7 @@ const Services = () => {
   };
 
   const handleMedicinaClick = () => {
-    const message = encodeURIComponent("Olá! Gostaria de saber mais sobre o atendimento especializado para profissionais da medicina e saúde.");
+    const message = encodeURIComponent("Olá! Gostaria de conhecer o protocolo especializado 'Mais Renda, Menos Plantão' para profissionais da medicina e saúde.");
     window.open(`https://wa.me/5511949566290?text=${message}`, '_blank');
   };
 
@@ -96,24 +97,18 @@ const Services = () => {
                 Profissionais da Medicina e Saúde
               </h3>
               
-              <div className="grid md:grid-cols-2 gap-6">
+              <div className="grid md:grid-cols-2 gap-6 mb-6">
                 <div className="bg-white p-6 rounded-lg shadow-sm">
                   <h4 className="text-xl font-bold text-corporate-600 mb-4">
                     Atendimento Especializado
                   </h4>
-                  <ul className="space-y-2 text-gray-700 mb-4">
+                  <ul className="space-y-2 text-gray-700">
                     <li>• Planejamento financeiro para alta renda</li>
                     <li>• Estruturação patrimonial específica para médicos</li>
                     <li>• Otimização tributária para profissionais liberais</li>
                     <li>• Proteção patrimonial especializada</li>
                     <li>• Previdência privada customizada</li>
                   </ul>
-                  <button 
-                    onClick={handleMedicinaClick}
-                    className="bg-corporate-500 text-white px-6 py-2 rounded-lg hover:bg-corporate-600 transition-colors"
-                  >
-                    Clique aqui para saber mais
-                  </button>
                 </div>
 
                 <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-gold-500">
@@ -130,6 +125,15 @@ const Services = () => {
                     </p>
                   </div>
                 </div>
+              </div>
+
+              <div className="text-center">
+                <button 
+                  onClick={handleMedicinaClick}
+                  className="bg-gold-500 text-white px-12 py-3 rounded-lg font-bold text-lg hover:bg-gold-600 transition-all duration-300 shadow-lg w-full max-w-md"
+                >
+                  Clique aqui para conhecer o protocolo
+                </button>
               </div>
             </div>
           </div>
