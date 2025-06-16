@@ -28,7 +28,7 @@ const Hero = () => {
           </h1>
 
           {/* Impact Phrase */}
-          <blockquote className="text-xl md:text-2xl font-inter italic max-w-4xl mx-auto leading-relaxed mb-8 animate-fade-in" style={{ color: '#C0C0C0', textShadow: '0 0 10px rgba(192, 192, 192, 0.3)' }}>
+          <blockquote className="text-xl md:text-2xl font-inter italic max-w-4xl mx-auto leading-relaxed mb-8 animate-fade-in" style={{ color: '#E8E8E8', textShadow: '0 0 15px rgba(232, 232, 232, 0.4)' }}>
             "Cuidando do presente e futuro com estratégia, excelência e valor."
           </blockquote>
         </div>
