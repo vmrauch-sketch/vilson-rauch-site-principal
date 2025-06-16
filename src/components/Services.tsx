@@ -101,10 +101,6 @@ const Services = () => {
                   <h4 className="text-xl font-bold text-corporate-600 mb-4">
                     Atendimento Especializado
                   </h4>
-                  <p className="text-gray-700 mb-4">
-                    Atendimento exclusivo para profissionais da medicina, considerando 
-                    peculiaridades de rotina, planejamento patrimonial e questões tributárias específicas.
-                  </p>
                   <ul className="space-y-2 text-gray-700 mb-4">
                     <li>• Planejamento financeiro para alta renda</li>
                     <li>• Estruturação patrimonial específica para médicos</li>
