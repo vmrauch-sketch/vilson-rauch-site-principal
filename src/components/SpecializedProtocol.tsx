@@ -1,5 +1,4 @@
 
-
 const SpecializedProtocol = () => {
   const handleProtocolClick = () => {
     const message = encodeURIComponent("Olá! Gostaria de conhecer o protocolo especializado 'Mais Renda, Menos Plantão' para profissionais da medicina e saúde.");
@@ -18,7 +17,7 @@ const SpecializedProtocol = () => {
           </h3>
           <div className="bg-white p-8 rounded-xl shadow-lg mb-8">
             <p className="text-lg leading-relaxed mb-6 text-gray-700">
-              Atendimento exclusivo para <strong>profissionais da medicina e saúde</strong>, considerando 
+              Atendimento para <strong>profissionais da medicina e saúde</strong>, considerando 
               peculiaridades de rotina, planejamento patrimonial e questões tributárias específicas. 
               Desenvolvemos estratégias que maximizam sua renda e otimizam seu tempo, permitindo 
               maior qualidade de vida com segurança financeira.
@@ -37,4 +36,3 @@ const SpecializedProtocol = () => {
 };
 
 export { SpecializedProtocol };
-
