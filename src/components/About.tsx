@@ -31,19 +31,31 @@ const About = () => {
             {/* Content - Text alongside image */}
             <div className="space-y-6 animate-fade-in">
               <p className="text-lg text-gray-700 leading-relaxed">
-                Vilson Rauch é estrategista financeiro com ampla experiência em consultoria independente e gestão patrimonial. Atua com foco na excelência técnica e no rigor ético, oferecendo soluções integradas em finanças, renda e investimentos para indivíduos, famílias e empresas.
+                Vilson Rauch é estrategista, consultor independente e fundador da Valorum, onde atua como mentor e guia na jornada pela liberdade financeira de indivíduos, famílias e empresas.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
-                Com mais de duas décadas de atuação na gestão industrial, Vilson Rauch desenvolveu uma visão estratégica e operacional única, que agora aplica à consultoria personalizada para indivíduos e empresas.
+                Com ampla experiência em gestão patrimonial e consultoria independente, sua atuação se destaca pela excelência técnica, rigor ético e visão integrada.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
-                Essa trajetória proporciona uma compreensão aprofundada dos desafios e oportunidades do ambiente corporativo, permitindo a entrega de soluções alinhadas às necessidades reais de cada cliente.
+                Coautor do best-seller "Como Milionários Americanos Investem: A Revolução do Wealth Planning no Brasil", Vilson é uma das vozes que ajudaram a introduzir no país um novo modelo de gestão de investimentos e planejamento patrimonial — mais estratégico, alinhado ao longo prazo e centrado no cliente.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
-                Coordenando um time multidisciplinar de especialistas, assegura que cada projeto receba uma abordagem integrada, combinando competências em economia, contabilidade, investimentos, excelência operacional e gestão empresarial. Essa sinergia resulta em estratégias robustas, eficazes e adaptadas ao contexto específico, fundamentadas em experiência prática, conhecimento técnico e compromisso com resultados de excelência.
+                Antes da Valorum, acumulou mais de 20 anos de experiência na gestão industrial, onde desenvolveu uma visão estratégica e operacional única — hoje aplicada à consultoria personalizada com profundidade prática e visão sistêmica.
+              </p>
+
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Sua trajetória o capacita a compreender, com precisão, os desafios reais enfrentados por empresários, profissionais liberais e famílias em busca de independência e legado.
+              </p>
+
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Atualmente, lidera uma equipe multidisciplinar de especialistas nas áreas de investimentos, economia, contabilidade, gestão empresarial e excelência operacional. Juntos, entregam soluções robustas, eficazes e verdadeiramente personalizadas.
+              </p>
+
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Toda estratégia construída reflete o mesmo princípio que move a Valorum: liberdade começa com consciência — e se realiza com escolhas estruturadas.
               </p>
             </div>
           </div>
