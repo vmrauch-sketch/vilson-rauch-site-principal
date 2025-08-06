@@ -31,31 +31,31 @@ const About = () => {
             {/* Content - Text alongside image */}
             <div className="space-y-6 animate-fade-in">
               <p className="text-lg text-gray-700 leading-relaxed">
-                Vilson Rauch é estrategista, consultor independente e fundador da Valorum, onde atua como mentor e guia na jornada pela liberdade financeira de indivíduos, famílias e empresas.
+                🧭 Vilson Rauch é estrategista financeiro, consultor independente e fundador da Valorum, onde atua como mentor na jornada pela liberdade financeira de indivíduos, famílias e empresas.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
-                Com ampla experiência em gestão patrimonial e consultoria independente, sua atuação se destaca pela excelência técnica, rigor ético e visão integrada.
+                Com ampla experiência em gestão patrimonial e consultoria independente, sua abordagem combina excelência técnica, ética inegociável e uma compreensão prática dos desafios reais enfrentados por seus clientes.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
-                Coautor do best-seller "Como Milionários Americanos Investem: A Revolução do Wealth Planning no Brasil", Vilson é uma das vozes que ajudaram a introduzir no país um novo modelo de gestão de investimentos e planejamento patrimonial — mais estratégico, alinhado ao longo prazo e centrado no cliente.
+                📖 Coautor do best‑seller "Como Milionários Americanos Investem: A Revolução do Wealth Planning no Brasil", Vilson é uma das vozes que ajudaram a introduzir no país um novo modelo de gestão de investimentos e planejamento patrimonial — mais estratégico, de longo prazo e genuinamente centrado no cliente.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
-                Antes da Valorum, acumulou mais de 20 anos de experiência na gestão industrial, onde desenvolveu uma visão estratégica e operacional única — hoje aplicada à consultoria personalizada com profundidade prática e visão sistêmica.
+                Essa visão inovadora é profundamente enraizada em sua vivência prática, construída ao longo de mais de duas décadas na gestão industrial, onde desenvolveu uma combinação única de pensamento estratégico e execução operacional. Hoje, essa bagagem é aplicada à consultoria financeira personalizada, com foco em gerar autonomia e clareza.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
-                Sua trajetória o capacita a compreender, com precisão, os desafios reais enfrentados por empresários, profissionais liberais e famílias em busca de independência e legado.
+                À frente de uma equipe multidisciplinar, Vilson coordena especialistas em economia, contabilidade, investimentos, excelência operacional e gestão empresarial, garantindo que cada solução entregue seja robusta, integrada e alinhada ao contexto específico de quem a recebe.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
-                Atualmente, lidera uma equipe multidisciplinar de especialistas nas áreas de investimentos, economia, contabilidade, gestão empresarial e excelência operacional. Juntos, entregam soluções robustas, eficazes e verdadeiramente personalizadas.
+                Além do trabalho de consultoria, leva essa visão para o palco em palestras e encontros estratégicos, onde compartilha não apenas conhecimento técnico, mas vivências aplicadas que inspiram mudança, decisão e propósito.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
-                Toda estratégia construída reflete o mesmo princípio que move a Valorum: liberdade começa com consciência — e se realiza com escolhas estruturadas.
+                🔑 Toda estratégia construída por Vilson reflete o mesmo princípio que sustenta a Valorum: liberdade começa com consciência — e se realiza com escolhas estruturadas.
               </p>
             </div>
           </div>
