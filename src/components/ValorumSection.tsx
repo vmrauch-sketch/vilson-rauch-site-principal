@@ -7,7 +7,7 @@ const ValorumSection = () => {
             Plataforma Valorum
           </h2>
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-            Acesse os serviços do nosso time especializado
+            Acesse o site de serviços do nosso time especializado
           </p>
           <div className="animate-fade-in">
             <a 
