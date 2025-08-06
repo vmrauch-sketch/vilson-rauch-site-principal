@@ -16,7 +16,7 @@ const ValorumSection = () => {
               rel="noopener noreferrer"
               className="inline-block bg-navy-600 hover:bg-navy-700 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
             >
-              Acesse a Plataforma Valorum
+              Acesse a Valorum
             </a>
           </div>
         </div>
