@@ -34,18 +34,6 @@ const Hero = () => {
           <blockquote className="text-xl md:text-2xl font-inter italic max-w-4xl mx-auto leading-relaxed mb-8 animate-fade-in text-white px-6 py-4 rounded-lg" style={{ backgroundColor: '#0F1F3D' }}>
             "Cuidando do presente e futuro com estratégia, excelência e valor."
           </blockquote>
-
-          {/* Valorum Button */}
-          <div className="animate-fade-in mb-8">
-            <a 
-              href="https://valorum.vilsonrauch.com.br/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block bg-white/10 hover:bg-white/20 text-white font-semibold py-4 px-8 rounded-lg border border-white/30 transition-all duration-300 hover:scale-105 backdrop-blur-sm"
-            >
-              Acesse a Plataforma Valorum
-            </a>
-          </div>
         </div>
       </div>
 
