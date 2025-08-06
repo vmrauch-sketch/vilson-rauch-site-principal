@@ -23,7 +23,7 @@ const Footer = () => {
           </div>
 
           <div className="border-t border-white/20 mt-8 pt-8 text-center text-white/60">
-            <p>&copy; 2024 Vilson Rauch. Todos os direitos reservados. | Consultor CVM Credenciado</p>
+            <p>&copy; 2024 Vilson Rauch. Todos os direitos reservados.</p>
           </div>
         </div>
       </div>
