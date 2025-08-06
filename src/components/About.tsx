@@ -47,7 +47,7 @@ const About = () => {
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
-                À frente de uma equipe multidisciplinar, Vilson coordena especialistas em economia, contabilidade, investimentos, excelência operacional e gestão empresarial, garantindo que cada solução entregue seja robusta, integrada e alinhada ao contexto específico de quem a recebe.
+                ♞ Como estrategista de movimentos inteligentes e coordenados, Vilson lidera uma equipe multidisciplinar de especialistas em economia, contabilidade, investimentos, excelência operacional e gestão empresarial, garantindo que cada solução entregue seja robusta, integrada e feita sob medida para quem a recebe.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
