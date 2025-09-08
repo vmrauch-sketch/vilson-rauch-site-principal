@@ -9,7 +9,7 @@ const ValorumSection = () => {
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
             Acesse o site de serviços do nosso time especializado
           </p>
-          <div className="animate-fade-in">
+          <div>
             <a 
               href="https://valorum.vilsonrauch.com.br/" 
               target="_blank" 

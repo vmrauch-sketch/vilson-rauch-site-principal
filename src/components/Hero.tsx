@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center text-white relative z-10">
         <div className="max-w-4xl mx-auto">
           {/* Profile Image */}
-          <div className="mb-8 animate-fade-in">
+          <div className="mb-8">
             <div className="relative w-64 h-64 mx-auto">
               {/* Blue background circle */}
               <div className="absolute inset-0 bg-navy-500 rounded-full"></div>
@@ -21,17 +21,19 @@ const Hero = () => {
                 alt="Vilson Rauch" 
                 className="relative w-full h-full rounded-full object-cover object-center border-4 border-white/20 shadow-2xl"
                 style={{ objectPosition: 'center 20%' }}
+                loading="eager"
+                decoding="sync"
               />
             </div>
           </div>
 
           {/* Main Title */}
-          <h1 className="text-5xl md:text-7xl font-playfair font-bold mb-6 animate-fade-in" style={{ color: '#F2F2F2' }}>
+          <h1 className="text-5xl md:text-7xl font-playfair font-bold mb-6" style={{ color: '#F2F2F2' }}>
             Vilson Rauch
           </h1>
 
           {/* Impact Phrase */}
-          <blockquote className="text-xl md:text-2xl font-inter italic max-w-4xl mx-auto leading-relaxed mb-8 animate-fade-in text-white px-6 py-4 rounded-lg" style={{ backgroundColor: '#0F1F3D' }}>
+          <blockquote className="text-xl md:text-2xl font-inter italic max-w-4xl mx-auto leading-relaxed mb-8 text-white px-6 py-4 rounded-lg" style={{ backgroundColor: '#0F1F3D' }}>
             "Cuidando do presente e futuro com estratégia, excelência e valor."
           </blockquote>
         </div>

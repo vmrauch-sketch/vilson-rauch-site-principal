@@ -20,16 +20,18 @@ const About = () => {
 
           <div className="grid md:grid-cols-2 gap-12 items-start mb-12">
             {/* Image */}
-            <div className="animate-fade-in">
+            <div>
               <img 
                 src="/lovable-uploads/198f0dc1-b9de-4fcd-b390-8204dc19dbaa.png" 
                 alt="Vilson Rauch - Consultor" 
                 className="w-full rounded-lg shadow-xl object-contain"
+                loading="lazy"
+                decoding="async"
               />
             </div>
 
             {/* Content - Text alongside image */}
-            <div className="space-y-6 animate-fade-in">
+            <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
                 🧭 Vilson Rauch é estrategista financeiro, consultor independente e fundador da Valorum, onde atua como mentor na jornada pela liberdade financeira de indivíduos, famílias e empresas.
               </p>
@@ -65,7 +67,7 @@ const About = () => {
           </div>
 
           {/* CTA Section */}
-          <div className="animate-fade-in">
+          <div>
             <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-corporate-500">
               <p className="text-gray-700 mb-6 text-center text-lg font-medium">
                 Personalizado, independente e orientado à construção e preservação do patrimônio.
