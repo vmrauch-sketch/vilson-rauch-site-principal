@@ -43,7 +43,11 @@ const About = () => {
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
-                Essa visão inovadora é profundamente enraizada em sua vivência prática, construída ao longo de mais de duas décadas na gestão industrial, onde desenvolveu uma combinação única de pensamento estratégico e execução operacional. Hoje, essa bagagem é aplicada à consultoria financeira personalizada, com foco em gerar autonomia e clareza.
+                Sua visão inovadora e pró-cliente é sustentada por uma base sólida. É mestre em Economia e Mercados pelo Mackenzie de São Paulo e especialista em Mercado Financeiro pela PUC Minas — duas formações que unem teoria econômica e aplicação prática com foco estratégico. Esse repertório acadêmico reforça sua capacidade de interpretar cenários complexos e traduzi-los em estratégias patrimoniais e empresariais eficazes e sob medida.
+              </p>
+
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Essa perspectiva é moldada por mais de duas décadas de experiência na gestão industrial, onde desenvolveu uma combinação única de pensamento estratégico e execução operacional. Hoje, essa bagagem técnica e prática é aplicada à consultoria financeira personalizada, com foco em gerar autonomia, clareza e decisões alinhadas ao longo prazo.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
