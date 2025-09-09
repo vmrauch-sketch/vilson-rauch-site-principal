@@ -66,36 +66,6 @@ const About = () => {
             </div>
           </div>
 
-          {/* CTA Section */}
-          <div>
-            <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-corporate-500">
-              <p className="text-gray-700 mb-6 text-center text-lg font-medium">
-                Personalizado, independente e orientado à construção e preservação do patrimônio.
-              </p>
-              
-              {/* Navigation Buttons */}
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <button
-                  onClick={() => scrollToSection('pessoa-fisica')}
-                  className="bg-navy-600 text-white px-6 py-3 rounded-lg hover:bg-navy-700 transition-all duration-300 font-medium"
-                >
-                  Pessoa Física
-                </button>
-                <button
-                  onClick={() => scrollToSection('protocolo-especializado')}
-                  className="bg-corporate-500 text-white px-6 py-3 rounded-lg hover:bg-corporate-600 transition-all duration-300 font-medium"
-                >
-                  Profissionais da Medicina e Saúde
-                </button>
-                <button
-                  onClick={() => scrollToSection('pessoa-juridica')}
-                  className="bg-financial-500 text-white px-6 py-3 rounded-lg hover:bg-financial-600 transition-all duration-300 font-medium"
-                >
-                  Pessoa Jurídica
-                </button>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
