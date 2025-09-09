@@ -1,6 +1,6 @@
 const ValorumSection = () => {
   return (
-    <section className="py-16 bg-gradient-to-b from-gray-50 to-white">
+    <section className="pt-8 pb-16 bg-gradient-to-b from-gray-50 to-white">
       <div className="container mx-auto px-6 text-center">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-playfair font-bold text-navy-600 mb-6">

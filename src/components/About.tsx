@@ -7,7 +7,7 @@ const About = () => {
   };
 
   return (
-    <section className="py-20 bg-gray-50" id="sobre">
+    <section className="py-20 pb-8 bg-gray-50" id="sobre">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
