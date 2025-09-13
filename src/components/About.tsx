@@ -60,7 +60,7 @@ const About = () => {
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
-                Além do trabalho de consultoria, leva essa visão em palestra em palestras e encontros estratégicos, onde compartilha não apenas conhecimento técnico, mas vivências aplicadas que inspiram mudança, decisão e propósito.
+                Além da consultoria leva essa visão em palestras e encontros estratégicos, onde compartilha não apenas conhecimento técnico, mas vivências aplicadas que inspiram mudança, decisão e propósito.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
