@@ -13,7 +13,7 @@ const Footer = () => {
               </p>
               <div className="flex items-center space-x-2 text-sm text-white/60">
                 <span className="w-2 h-2 bg-financial-500 rounded-full"></span>
-                <span>Consultoria independente</span>
+                <span>Consultoria</span>
                 <span className="w-2 h-2 bg-financial-500 rounded-full"></span>
                 <span>Credenciado</span>
                 <span className="w-2 h-2 bg-financial-500 rounded-full"></span>

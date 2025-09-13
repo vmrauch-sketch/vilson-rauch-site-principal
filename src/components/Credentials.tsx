@@ -48,7 +48,7 @@ const Credentials = () => {
               Credenciais & Especialização
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Expertise comprovada em consultoria financeira independente e gestão patrimonial
+              Expertise comprovada em consultoria financeira e gestão patrimonial
             </p>
           </div>
 
