@@ -36,7 +36,7 @@ const About = () => {
             {/* Content - Text alongside image */}
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                🧭 Vilson Rauch é estrategista financeiro, consultor e fundador da Valorum, onde atua como mentor na jornada pela liberdade financeira de indivíduos, famílias e empresas.
+                🧭 Vilson Rauch é estrategista patrimonial e financeiro, consultor e fundador da Valorum, onde atua como mentor na jornada pela liberdade financeira de indivíduos, famílias e empresas.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
