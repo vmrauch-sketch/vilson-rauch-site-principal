@@ -52,7 +52,7 @@ const About = () => {
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
-                Mais de duas décadas de experiência na gestão de indústrias nacionais e multinacionais permitiram desenvolver uma combinação única de pensamento estratégico e execução operacional. Hoje, essa bagagem técnica e prática é aplicada à consultoria patrimonial e financeira, com foco em gerar autonomia, clareza e decisões alinhadas ao longo prazo.
+                Mais de duas décadas de experiência na gestão de indústrias nacionais e multinacionais permitiram desenvolver uma combinação única de pensamento estratégico e execução operacional. Hoje, essa bagagem técnica e prática é aplicada à consultoria patrimonial e financeira, com foco em gerar autonomia, clareza e decisões alinhadas.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
