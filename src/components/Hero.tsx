@@ -1,7 +1,7 @@
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden" style={{ background: '#0F1F3D' }}>
+    <header className="relative min-h-screen flex items-center justify-center overflow-hidden" style={{ background: '#0F1F3D' }}>
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-20 w-32 h-32 border border-white/20 rounded-full"></div>
@@ -18,7 +18,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-navy-500 rounded-full"></div>
               <img 
                 src="/lovable-uploads/8c1233bc-8a84-4c25-856d-db026f518fa5.png" 
-                alt="Vilson Rauch" 
+                alt="Vilson Rauch - Estrategista Patrimonial e Financeiro, Fundador da Valorum" 
                 className="relative w-full h-full rounded-full object-cover object-center border-4 border-white/20 shadow-2xl"
                 style={{ objectPosition: 'center 20%' }}
                 loading="eager"
@@ -29,7 +29,7 @@ const Hero = () => {
 
           {/* Main Title */}
           <h1 className="text-5xl md:text-7xl font-playfair font-bold mb-6" style={{ color: '#F2F2F2' }}>
-            Vilson Rauch
+            Vilson Rauch - Estrategista Patrimonial e Financeiro | Valorum
           </h1>
 
           {/* Impact Phrase */}
@@ -45,7 +45,7 @@ const Hero = () => {
           <div className="w-1 h-3 bg-white/60 rounded-full mt-2"></div>
         </div>
       </div>
-    </section>
+    </header>
   );
 };
 

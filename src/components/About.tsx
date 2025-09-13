@@ -7,13 +7,13 @@ const About = () => {
   };
 
   return (
-    <section className="py-20 pb-8 bg-gray-50" id="sobre">
+    <main className="py-20 pb-8 bg-gray-50" id="sobre">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
           <div className="mb-12">
             <h2 className="text-4xl md:text-5xl font-playfair font-bold text-navy-600 mb-4">
-              Sobre Vilson Rauch
+              Sobre Vilson Rauch - Fundador da Valorum
             </h2>
             <div className="w-16 h-1 bg-gold-500 mb-6"></div>
           </div>
@@ -23,7 +23,7 @@ const About = () => {
             <div>
               <img 
                 src="/lovable-uploads/198f0dc1-b9de-4fcd-b390-8204dc19dbaa.png" 
-                alt="Vilson Rauch - Consultor" 
+                alt="Vilson Rauch - Estrategista Patrimonial da Valorum, especialista em Wealth Planning" 
                 className="w-full rounded-lg shadow-xl object-contain"
                 loading="lazy"
                 decoding="async"
@@ -71,7 +71,7 @@ const About = () => {
 
         </div>
       </div>
-    </section>
+    </main>
   );
 };
 
