@@ -2,8 +2,8 @@
 const Differentials = () => {
   const differentials = [
     {
-      title: "Credenciamento CVM",
-      description: "Consultor de valores mobiliários regularizado",
+      title: "Credenciamento Profissional",
+      description: "Consultor de investimentos regularizado",
       icon: "✅"
     },
     {

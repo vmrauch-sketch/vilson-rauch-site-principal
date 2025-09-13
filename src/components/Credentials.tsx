@@ -3,7 +3,7 @@ const Credentials = () => {
   const credentials = [
     {
       icon: "💼",
-      title: "Consultor CVM Credenciado",
+      title: "Consultor Credenciado",
       items: [
         "Orientação independente em valores mobiliários",
         "Recomendações personalizadas de alocação de ativos",
