@@ -29,7 +29,7 @@ const About = () => {
                 decoding="async"
               />
               <p className="text-center text-xl font-playfair italic font-semibold text-gold-600 mt-6">
-                "Planejamento patrimonial real"
+                "Estrategista patrimonial e financeiro"
               </p>
             </div>
 
