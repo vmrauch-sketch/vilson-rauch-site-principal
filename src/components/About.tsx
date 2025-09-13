@@ -48,7 +48,7 @@ const About = () => {
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
-                Sua visão inovadora e pró-cliente é sustentada por uma formação sólida. É mestre em Economia e Mercados pelo Mackenzie de São Paulo e especialista em Mercado Financeiro pela PUC Minas — duas formações que unem teoria econômica e aplicação prática. Esse conjunto fortaleceu sua capacidade de interpretar cenários complexos e traduzi-los em estratégias patrimoniais e empresariais eficazes e sob medida.
+                Sua visão inovadora e pró-cliente é sustentada por uma formação sólida. É mestre em Economia e Mercados pelo Mackenzie de São Paulo e especialista em Mercado Financeiro pela PUC Minas — duas formações que unem teoria econômica e aplicação prática. Esse conjunto fortaleceu sua capacidade de interpretar cenários complexos e traduzi-los em estratégias patrimoniais e empresariais que funcionam na vida real.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
