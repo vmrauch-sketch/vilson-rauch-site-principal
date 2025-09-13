@@ -41,7 +41,7 @@ const About = () => {
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
-                📖 Coautor do best‑seller "Como Milionários Americanos Investem: A Revolução do Wealth Planning no Brasil", Vilson é uma das vozes que ajudaram a introduzir no país um novo modelo de gestão de investimentos e planejamento patrimonial — mais estratégico, de longo prazo e genuinamente centrado no cliente.
+                📖 Coautor do best-seller "Como Milionários Americanos Investem: A Revolução do Wealth Planning no Brasil", Vilson é uma das vozes que ajudaram a introduzir no país um novo modelo de gestão de investimentos e planejamento patrimonial — mais estratégico, de longo prazo e genuinamente centrado no cliente.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
