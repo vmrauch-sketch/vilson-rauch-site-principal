@@ -28,6 +28,9 @@ const About = () => {
                 loading="lazy"
                 decoding="async"
               />
+              <p className="text-center text-lg font-semibold text-navy-600 mt-4">
+                Planejamento patrimonial real
+              </p>
             </div>
 
             {/* Content - Text alongside image */}
