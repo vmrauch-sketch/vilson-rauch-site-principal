@@ -56,7 +56,7 @@ const About = () => {
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
-                ♞ Como estrategista de movimentos inteligentes e coordenados, Vilson lidera uma equipe multidisciplinar de especialistas em economia, contabilidade, investimentos, excelência operacional e gestão empresarial, garantindo que cada solução entregue seja robusta, integrada e feita sob medida para quem a recebe.
+                ♞ Como estrategista de movimentos inteligentes e coordenados, Vilson lidera uma equipe multidisciplinar de especialistas em economia, contabilidade, investimentos, excelência operacional e gestão empresarial, garantindo que cada solução entregue seja robusta e integrada.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
