@@ -29,9 +29,24 @@ O Cloudflare oferece uma interface muito mais simples para configurar DNS do que
 
 O Cloudflare vai escanear seus DNS atuais. Agora você precisa:
 
-1. **DELETAR** todos os registros A e CNAME existentes (se houver)
+1. **Procure pela aba "DNS"** no menu lateral do Cloudflare
+2. **Clique em "DNS" > "Records"** (Registros)
+3. **DELETAR** todos os registros A e CNAME existentes (se houver) - use o ícone de lixeira ao lado de cada registro
+4. **Clique no botão "Add record"** (Adicionar registro) para cada novo registro abaixo:
 
-2. **ADICIONAR** os seguintes registros:
+#### Como adicionar cada registro:
+
+Para cada registro, você vai:
+- Clicar em **"Add record"**
+- Preencher os campos:
+  - **Type** (Tipo): Escolher A ou CNAME
+  - **Name** (Nome): Digite o que está na coluna "Nome" abaixo
+  - **Target/Content** (Alvo/Conteúdo): Digite o IP ou domínio
+  - **Proxy status**: Clique no ícone da nuvem até ficar **CINZA** (DNS only)
+  - **TTL**: Deixar em Auto
+- Clicar em **"Save"**
+
+#### Registros para adicionar:
 
 #### Registros A (para o domínio raiz):
 
