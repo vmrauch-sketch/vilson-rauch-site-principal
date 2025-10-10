@@ -1,12 +1,12 @@
-# Configuração DNS via Cloudflare (Mais Fácil!)
+# Configuração DNS via Cloudflare
 
 ## Por que usar Cloudflare?
 
-O Cloudflare oferece uma interface muito mais simples para configurar DNS do que o Registro.br, além de:
+O Cloudflare oferece:
 - ✅ Gerenciamento de DNS mais fácil e visual
 - ✅ CDN gratuito (site mais rápido)
 - ✅ Proteção DDoS gratuita
-- ✅ SSL/HTTPS automático e melhorado
+- ✅ SSL/HTTPS automático
 - ✅ Totalmente gratuito
 
 ## Passo a Passo Completo
@@ -20,7 +20,7 @@ O Cloudflare oferece uma interface muito mais simples para configurar DNS do que
 ### 2. Adicionar seu Domínio no Cloudflare
 
 1. No painel do Cloudflare, clique em **"Add a Site"** (Adicionar um Site)
-2. Digite seu domínio: `vilsonrauch.com`
+2. Digite seu domínio: `vilsonrauch.com.br`
 3. Clique em **"Add site"**
 4. Selecione o plano **Free** (gratuito)
 5. Clique em **"Continue"**
@@ -48,24 +48,21 @@ Para cada registro, você vai:
 
 #### Registros para adicionar:
 
-#### Registros A (para o domínio raiz):
+#### Registros A (aponte para seu servidor):
 
-| Tipo | Nome | Conteúdo/Target    | Proxy Status | TTL  |
-|------|------|-------------------|--------------|------|
-| A    | @    | 185.199.108.153   | DNS only ☁️  | Auto |
-| A    | @    | 185.199.109.153   | DNS only ☁️  | Auto |
-| A    | @    | 185.199.110.153   | DNS only ☁️  | Auto |
-| A    | @    | 185.199.111.153   | DNS only ☁️  | Auto |
+| Tipo | Nome | Conteúdo/Target           | Proxy Status | TTL  |
+|------|------|---------------------------|--------------|------|
+| A    | @    | [IP-DO-SEU-SERVIDOR]      | Proxied ☁️   | Auto |
 
 #### Registro CNAME (para www):
 
-| Tipo  | Nome | Conteúdo/Target              | Proxy Status | TTL  |
-|-------|------|------------------------------|--------------|------|
-| CNAME | www  | [seu-usuario].github.io      | DNS only ☁️  | Auto |
+| Tipo  | Nome | Conteúdo/Target    | Proxy Status | TTL  |
+|-------|------|--------------------|--------------|------|
+| CNAME | www  | vilsonrauch.com.br | Proxied ☁️   | Auto |
 
 **IMPORTANTE:** 
-- Para "Proxy Status", escolha **"DNS only"** (ícone de nuvem cinza)
-- Substitua `[seu-usuario]` pelo seu nome de usuário do GitHub
+- Para "Proxy Status", escolha **"Proxied"** (ícone de nuvem laranja) para aproveitar CDN e proteção
+- Substitua `[IP-DO-SEU-SERVIDOR]` pelo IP do servidor onde seu site está hospedado
 - O símbolo `@` representa o domínio raiz
 
 3. Clique em **"Continue"** depois de adicionar todos os registros
@@ -97,16 +94,11 @@ june.ns.cloudflare.com
 2. Clique em **"Done, check nameservers"**
 3. Aguarde a verificação (pode levar alguns minutos)
 
-### 6. Configurar no GitHub Pages
+### 6. Configurar SSL/TLS
 
-Enquanto aguarda a propagação:
-
-1. Vá ao seu repositório no GitHub
-2. Clique em **Settings** > **Pages**
-3. Em **Custom domain**, digite: `vilsonrauch.com`
-4. Clique em **Save**
-5. Aguarde a verificação DNS (pode aparecer um aviso, é normal)
-6. Quando disponível, marque **"Enforce HTTPS"**
+1. No Cloudflare, vá em **SSL/TLS** > **Overview**
+2. Escolha o modo **"Full"** ou **"Full (strict)"**
+3. Isso garante HTTPS automático e seguro
 
 ### 7. Aguardar Propagação
 
@@ -117,10 +109,10 @@ Enquanto aguarda a propagação:
 ### 8. Verificar se Funcionou
 
 Após algumas horas, teste:
-- http://vilsonrauch.com
-- http://www.vilsonrauch.com
-- https://vilsonrauch.com
-- https://www.vilsonrauch.com
+- http://vilsonrauch.com.br
+- http://www.vilsonrauch.com.br
+- https://vilsonrauch.com.br
+- https://www.vilsonrauch.com.br
 
 ## Como Verificar o Status
 
@@ -131,13 +123,13 @@ Após algumas horas, teste:
 ### No Terminal (Opcional):
 ```bash
 # Verificar nameservers
-dig NS vilsonrauch.com
+dig NS vilsonrauch.com.br
 
 # Verificar registros A
-dig vilsonrauch.com A
+dig vilsonrauch.com.br A
 
 # Verificar CNAME
-dig www.vilsonrauch.com CNAME
+dig www.vilsonrauch.com.br CNAME
 ```
 
 ### Online:
@@ -157,8 +149,8 @@ dig www.vilsonrauch.com CNAME
 
 ### HTTPS não funciona
 - Aguarde 24h após o DNS propagar
-- No GitHub Pages, tente desmarcar e remarcar "Enforce HTTPS"
-- Verifique se os registros no Cloudflare estão em "DNS only"
+- No Cloudflare, vá em SSL/TLS e escolha "Full" ou "Full (strict)"
+- Verifique se o certificado SSL está ativo no Cloudflare
 
 ### Cloudflare mostra "Pending Nameserver Update"
 - Isso é normal! Significa que está aguardando o Registro.br atualizar
@@ -168,30 +160,32 @@ dig www.vilsonrauch.com CNAME
 
 Depois que tudo estiver funcionando, você pode:
 
-1. **Ativar o Proxy do Cloudflare** (nuvem laranja):
-   - Deixa o site muito mais rápido
-   - Proteção contra ataques
-   - Clique no ícone da nuvem cinza para ficar laranja
-
-2. **SSL/TLS Flexible**:
-   - Vá em SSL/TLS > Overview
-   - Escolha "Flexible" para HTTPS automático
-
-3. **Cache e Performance**:
+1. **Cache e Performance**:
    - Vá em Speed > Optimization
    - Ative "Auto Minify" para HTML, CSS, e JavaScript
+   - Ative "Brotli" para compressão melhorada
+
+2. **Regras de Página**:
+   - Configure cache customizado
+   - Redirecione URLs antigas
+   - Force HTTPS
+
+3. **Analytics**:
+   - Monitore tráfego em tempo real
+   - Veja estatísticas de visitantes
+   - Identifique ameaças bloqueadas
 
 ## Resumo Rápido
 
 1. ✅ Criar conta Cloudflare (grátis)
 2. ✅ Adicionar domínio no Cloudflare
-3. ✅ Configurar registros DNS no Cloudflare (4x A + 1x CNAME)
+3. ✅ Configurar registros DNS no Cloudflare (A + CNAME)
 4. ✅ Copiar nameservers do Cloudflare
 5. ✅ Atualizar nameservers no Registro.br
-6. ✅ Configurar custom domain no GitHub Pages
+6. ✅ Configurar SSL/TLS no Cloudflare
 7. ✅ Aguardar propagação (1-24h)
-8. ✅ Testar e ativar HTTPS
+8. ✅ Testar o site
 
 ---
 
-**Precisa de ajuda?** Entre em contato através do chat do Cloudflare ou suporte do GitHub.
+**Precisa de ajuda?** Entre em contato através do chat do Cloudflare.
