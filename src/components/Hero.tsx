@@ -18,7 +18,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-navy-500 rounded-full"></div>
               <img 
                 src="/lovable-uploads/8c1233bc-8a84-4c25-856d-db026f518fa5.png" 
-                alt="Vilson Rauch - Estrategista Patrimonial e Financeiro"
+                alt="Vilson Rauch - Estrategista Patrimonial & Financeiro"
                 className="relative w-full h-full rounded-full object-cover object-center border-4 border-white/20 shadow-2xl"
                 style={{ objectPosition: 'center 20%' }}
                 loading="eager"
@@ -29,7 +29,9 @@ const Hero = () => {
 
           {/* Main Title */}
           <h1 className="text-5xl md:text-7xl font-playfair font-bold mb-6" style={{ color: '#F2F2F2' }}>
-            Vilson Rauch - Estrategista Patrimonial e Financeiro
+            Vilson Rauch
+            <br />
+            Estrategista Patrimonial <span className="font-serif italic">&</span> Financeiro
           </h1>
 
           {/* Impact Phrase */}
