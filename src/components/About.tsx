@@ -40,6 +40,10 @@ const About = () => {
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
+                ♞ Como estrategista, Vilson traduz a economia em estratégias patrimoniais orientadas pelos ciclos econômicos; a lógica da engenharia em mecanismos estruturados de crescimento e proteção patrimonial; e a contabilidade e a administração em gestão eficiente e operações voltadas à otimização e maximização de recursos ao longo do tempo.
+              </p>
+
+              <p className="text-lg text-gray-700 leading-relaxed">
                 Com ampla experiência em gestão patrimonial e consultoria, sua abordagem combina excelência técnica, ética inegociável e uma compreensão prática dos desafios reais enfrentados por seus clientes.
               </p>
 
