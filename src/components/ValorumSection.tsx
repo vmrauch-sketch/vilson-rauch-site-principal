@@ -4,7 +4,7 @@ const ValorumSection = () => {
       <div className="container mx-auto px-6 text-center">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-playfair font-bold text-navy-600 mb-6">
-            Plataforma Valorum
+            Soluções da Valorum
           </h2>
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
             Acesse o site de serviços do nosso time especializado
