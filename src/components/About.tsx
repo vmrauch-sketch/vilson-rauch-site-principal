@@ -44,7 +44,7 @@ const About = () => {
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
-                Com ampla experiência em gestão patrimonial e consultoria, sua abordagem combina excelência técnica, ética inegociável e uma compreensão prática dos desafios reais enfrentados por seus clientes.
+                🛡️ Com ampla experiência em gestão patrimonial e consultoria, sua abordagem combina excelência técnica, ética inegociável e uma compreensão prática dos desafios reais enfrentados por seus clientes.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
