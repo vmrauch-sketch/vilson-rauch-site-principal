@@ -54,28 +54,31 @@ const About = () => {
               <p className="text-lg text-gray-700 leading-relaxed">
                 🏛️ Sua visão inovadora e pró-cliente é sustentada por uma formação sólida e consistente. É mestre em Economia e Mercados pelo Mackenzie de São Paulo, especialista em Mercado Financeiro pela PUC Minas e possui formação em Value Investing pela Columbia University, em Nova York — berço do value investing. Esse conjunto une teoria econômica, rigor analítico e aplicação prática, fortalecendo sua capacidade de interpretar cenários complexos e traduzi-los em estratégias patrimoniais e empresariais que funcionam na vida real.
               </p>
-
-              <p className="text-lg text-gray-700 leading-relaxed">
-                🕰️ Mais de duas décadas de experiência na gestão de indústrias nacionais e multinacionais permitiram a Vilson desenvolver uma combinação única de pensamento estratégico e execução operacional, lidando com decisões complexas, alocação eficiente de recursos e gestão de riscos. Hoje, essa mesma lógica é aplicada na Valorum, orientando soluções patrimoniais, financeiras e empresariais voltadas à organização, proteção e crescimento, com eficiência fiscal e tributária, método e clareza.
-              </p>
-
-              <p className="text-lg text-gray-700 leading-relaxed">
-                ♞ Como estrategista de movimentos inteligentes e coordenados, Vilson lidera uma equipe multidisciplinar de especialistas em economia, contabilidade, investimentos, excelência operacional e gestão empresarial, garantindo que cada solução seja robusta, integrada e executável.
-              </p>
-
-              <p className="text-lg text-gray-700 leading-relaxed">
-                👑 Reconhecido por sua atuação consistente, Vilson é considerado um dos principais especialistas em Value Investing e estratégias de dividendos no Brasil, aplicando esses princípios de forma disciplinada à gestão de investimentos e à construção patrimonial. Além da atuação profissional, colabora com insights e análises na maior comunidade de investidores focada em dividendos do país, contribuindo para o debate qualificado e a disseminação de boas práticas em investimentos.
-              </p>
-
-              <p className="text-lg text-gray-700 leading-relaxed">
-                🎤 Em palestras e encontros estratégicos, Vilson compartilha essa visão aplicada por meio de temas como economia, empreendedorismo e inovação, eficiência tributária, mecanismos patrimoniais e liderança, conectando teoria, prática e tomada de decisão em contextos reais.
-              </p>
-
-              <p className="text-lg text-gray-700 leading-relaxed">
-                🔑 Toda estratégia construída por Vilson reflete o mesmo princípio que sustenta a Valorum:<br />
-                liberdade começa com consciência — e se realiza com escolhas estruturadas.
-              </p>
             </div>
+          </div>
+
+          {/* Full width section after grid */}
+          <div className="space-y-8">
+            <p className="text-lg text-gray-700 leading-relaxed">
+              🕰️ Mais de duas décadas de experiência na gestão de indústrias nacionais e multinacionais permitiram a Vilson desenvolver uma combinação única de pensamento estratégico e execução operacional, lidando com decisões complexas, alocação eficiente de recursos e gestão de riscos. Hoje, essa mesma lógica é aplicada na Valorum, orientando soluções patrimoniais, financeiras e empresariais voltadas à organização, proteção e crescimento, com eficiência fiscal e tributária, método e clareza.
+            </p>
+
+            <p className="text-lg text-gray-700 leading-relaxed">
+              ♞ Como estrategista de movimentos inteligentes e coordenados, Vilson lidera uma equipe multidisciplinar de especialistas em economia, contabilidade, investimentos, excelência operacional e gestão empresarial, garantindo que cada solução seja robusta, integrada e executável.
+            </p>
+
+            <p className="text-lg text-gray-700 leading-relaxed">
+              👑 Reconhecido por sua atuação consistente, Vilson é considerado um dos principais especialistas em Value Investing e estratégias de dividendos no Brasil, aplicando esses princípios de forma disciplinada à gestão de investimentos e à construção patrimonial. Além da atuação profissional, colabora com insights e análises na maior comunidade de investidores focada em dividendos do país, contribuindo para o debate qualificado e a disseminação de boas práticas em investimentos.
+            </p>
+
+            <p className="text-lg text-gray-700 leading-relaxed">
+              🎤 Em palestras e encontros estratégicos, Vilson compartilha essa visão aplicada por meio de temas como economia, empreendedorismo e inovação, eficiência tributária, mecanismos patrimoniais e liderança, conectando teoria, prática e tomada de decisão em contextos reais.
+            </p>
+
+            <p className="text-lg text-gray-700 leading-relaxed">
+              🔑 Toda estratégia construída por Vilson reflete o mesmo princípio que sustenta a Valorum:<br />
+              liberdade começa com consciência — e se realiza com escolhas estruturadas.
+            </p>
           </div>
 
         </div>
