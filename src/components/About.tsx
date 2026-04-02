@@ -82,7 +82,10 @@ const About = () => {
             </p>
 
             {/* Ecosystem Navigation Buttons */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-12">
+            <h3 className="text-2xl font-playfair font-bold text-navy-600 mt-12 mb-6 text-center">
+              Acesse os sites de serviços do nosso time especializado
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <a
                 href="https://valorum.vilsonrauch.com.br/"
                 target="_blank"
