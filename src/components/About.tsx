@@ -80,6 +80,34 @@ const About = () => {
               🔑 Toda estratégia construída por Vilson reflete o mesmo princípio que sustenta a Valorum:<br />
               liberdade começa com consciência — e se realiza com escolhas estruturadas.
             </p>
+
+            {/* Ecosystem Navigation Buttons */}
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-12">
+              <a
+                href="https://valorum.vilsonrauch.com.br/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 px-6 py-4 bg-navy-600 text-white rounded-lg font-semibold text-center hover:bg-navy-700 transition-colors shadow-md"
+              >
+                Valorum Investimentos e Patrimônio
+              </a>
+              <a
+                href="https://cfvalorum.com.br/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 px-6 py-4 bg-navy-600 text-white rounded-lg font-semibold text-center hover:bg-navy-700 transition-colors shadow-md"
+              >
+                Valorum BPO — Terceirização e Gestão do Financeiro
+              </a>
+              <a
+                href="https://palestras.vilsonrauch.com.br/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 px-6 py-4 bg-navy-600 text-white rounded-lg font-semibold text-center hover:bg-navy-700 transition-colors shadow-md"
+              >
+                Palestras
+              </a>
+            </div>
           </div>
 
         </div>
