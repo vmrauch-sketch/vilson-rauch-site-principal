@@ -9,7 +9,7 @@ const Footer = () => {
             <div>
               <h3 className="text-2xl font-playfair font-bold mb-4">Vilson Rauch</h3>
               <p className="text-white/80 mb-4 max-w-md">
-                Especialista em gestão financeira de pessoas e empresas.
+                Especialista em finanças e investimentos.
               </p>
               <div className="flex items-center space-x-2 text-sm text-white/60">
                 <span className="w-2 h-2 bg-financial-500 rounded-full"></span>
