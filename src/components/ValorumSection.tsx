@@ -9,14 +9,30 @@ const ValorumSection = () => {
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
             Acesse o site de serviços do nosso time especializado
           </p>
-          <div>
-            <a 
-              href="https://valorum.vilsonrauch.com.br/" 
-              target="_blank" 
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-3xl mx-auto">
+            <a
+              href="https://valorum.vilsonrauch.com.br/"
+              target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-navy-600 hover:bg-navy-700 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+              className="flex items-center justify-center gap-2 px-6 py-4 bg-navy-600 text-white rounded-lg font-semibold text-center hover:bg-navy-700 transition-colors shadow-md hover:scale-105 duration-300"
             >
-              Acesse a Valorum
+              Valorum Investimentos e Patrimônio
+            </a>
+            <a
+              href="https://cfvalorum.com.br/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2 px-6 py-4 bg-navy-600 text-white rounded-lg font-semibold text-center hover:bg-navy-700 transition-colors shadow-md hover:scale-105 duration-300"
+            >
+              Valorum BPO — Terceirização e Gestão do Financeiro
+            </a>
+            <a
+              href="https://palestras.vilsonrauch.com.br/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2 px-6 py-4 bg-navy-600 text-white rounded-lg font-semibold text-center hover:bg-navy-700 transition-colors shadow-md hover:scale-105 duration-300"
+            >
+              Palestras
             </a>
           </div>
         </div>
