@@ -14,13 +14,14 @@ const Hero = () => {
 
           {/* Profile Image */}
           <div className="mb-10">
-            <div className="relative w-56 h-56 md:w-64 md:h-64 mx-auto">
-              <div className="absolute -inset-1 rounded-full border border-gold-500/20" />
+            <div className="relative w-64 h-72 md:w-72 md:h-80 mx-auto">
+              {/* Decorative gold rectangle - offset bottom-right */}
+              <div className="absolute -bottom-3 -right-3 w-20 h-20 border border-gold-500/30 rounded-sm" />
               <img 
                 src="/lovable-uploads/8c1233bc-8a84-4c25-856d-db026f518fa5.png" 
                 alt="Vilson Rauch - Estrategista Financeiro e Patrimonial"
-                className="relative w-full h-full rounded-full object-cover object-center shadow-2xl"
-                style={{ objectPosition: 'center 20%', boxShadow: '0 0 60px rgba(191, 155, 81, 0.15)' }}
+                className="relative w-full h-full rounded-sm object-cover object-top shadow-2xl"
+                style={{ objectPosition: 'center 15%', boxShadow: '0 0 60px rgba(191, 155, 81, 0.15)' }}
                 loading="eager"
                 decoding="sync"
               />
