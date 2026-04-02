@@ -81,36 +81,6 @@ const About = () => {
               liberdade começa com consciência — e se realiza com escolhas estruturadas.
             </p>
 
-            {/* Ecosystem Navigation Buttons */}
-            <h3 className="text-2xl font-playfair font-bold text-navy-600 mt-12 mb-6 text-center">
-              Acesse os sites de serviços do nosso time especializado
-            </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              <a
-                href="https://valorum.vilsonrauch.com.br/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 px-6 py-4 bg-navy-600 text-white rounded-lg font-semibold text-center hover:bg-navy-700 transition-colors shadow-md"
-              >
-                Valorum Investimentos e Patrimônio
-              </a>
-              <a
-                href="https://cfvalorum.com.br/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 px-6 py-4 bg-navy-600 text-white rounded-lg font-semibold text-center hover:bg-navy-700 transition-colors shadow-md"
-              >
-                Valorum BPO — Terceirização e Gestão do Financeiro
-              </a>
-              <a
-                href="https://palestras.vilsonrauch.com.br/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 px-6 py-4 bg-navy-600 text-white rounded-lg font-semibold text-center hover:bg-navy-700 transition-colors shadow-md"
-              >
-                Palestras
-              </a>
-            </div>
           </div>
 
         </div>
