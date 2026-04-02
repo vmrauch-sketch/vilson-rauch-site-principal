@@ -9,7 +9,7 @@ const Footer = () => {
             <div>
               <h3 className="text-2xl font-playfair font-bold mb-4">Vilson Rauch</h3>
               <p className="text-white/80 mb-4 max-w-md">
-                Consultor especialista em wealth planning e palestrante.
+                Especialista em gestão financeira de pessoas e empresas.
               </p>
               <div className="flex items-center space-x-2 text-sm text-white/60">
                 <span className="w-2 h-2 bg-financial-500 rounded-full"></span>
@@ -17,7 +17,7 @@ const Footer = () => {
                 <span className="w-2 h-2 bg-financial-500 rounded-full"></span>
                 <span>Credenciado</span>
                 <span className="w-2 h-2 bg-financial-500 rounded-full"></span>
-                <span>Gestor de patrimônio</span>
+                <span>Gestor</span>
               </div>
             </div>
           </div>
