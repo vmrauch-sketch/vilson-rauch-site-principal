@@ -31,9 +31,9 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-playfair font-bold mb-6" style={{ color: '#F2F2F2' }}>
             Vilson Rauch
             <br />
-            Estrategista Patrimonial
+            Estrategista Financeiro
             <br />
-            <span className="font-serif italic">&</span> Financeiro
+            <span className="font-serif italic">&</span> Patrimonial
           </h1>
 
           {/* Impact Phrase */}
