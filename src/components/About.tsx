@@ -23,7 +23,7 @@ const About = () => {
             <div>
               <img 
                 src="/lovable-uploads/198f0dc1-b9de-4fcd-b390-8204dc19dbaa.png" 
-                alt="Vilson Rauch - Estrategista Patrimonial & Financeiro da Valorum, especialista em Wealth Planning" 
+                alt="Vilson Rauch - Estrategista Financeiro & Patrimonial da Valorum, especialista em Wealth Planning" 
                 className="w-full rounded-lg shadow-xl object-contain"
                 loading="lazy"
                 decoding="async"
@@ -36,7 +36,7 @@ const About = () => {
             {/* Content - Text alongside image */}
             <div className="space-y-8">
               <p className="text-lg text-gray-700 leading-relaxed">
-                🧭 Vilson Rauch é estrategista patrimonial e financeiro, consultor e fundador da Valorum, onde atua como mentor na jornada pela liberdade financeira de indivíduos, famílias e empresas.
+                🧭 Vilson Rauch é estrategista financeiro e patrimonial, consultor e fundador da Valorum, onde atua como mentor na jornada pela liberdade financeira de indivíduos, famílias e empresas.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
