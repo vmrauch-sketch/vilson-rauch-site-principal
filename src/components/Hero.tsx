@@ -31,6 +31,7 @@ const Hero = () => {
           {/* Main Title */}
           <h1 className="text-5xl md:text-7xl font-playfair font-bold mb-8 tracking-wide" style={{ color: '#d4af5a' }}>
             Vilson Rauch
+            <span className="sr-only"> — Estrategista Financeiro e Patrimonial</span>
           </h1>
 
           {/* Subtitle */}
