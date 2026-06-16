@@ -6,7 +6,7 @@ const ValorumSection = () => {
     },
     {
       label: "Valorum BPO — Terceirização e Gestão do Financeiro",
-      href: "https://cfvalorum.com.br/",
+      href: "https://confiza.lovable.app/",
     },
     {
       label: "Palestras",
