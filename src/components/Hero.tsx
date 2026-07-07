@@ -1,5 +1,3 @@
-import heroAsset from "@/assets/vilson-rauch-hero.png.asset.json";
-
 const Hero = () => {
   return (
     <header className="relative min-h-screen flex items-center justify-center overflow-hidden" style={{ background: 'linear-gradient(180deg, #0a1628 0%, #0F1F3D 50%, #142a4f 100%)' }}>
