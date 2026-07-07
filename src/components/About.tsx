@@ -1,5 +1,3 @@
-import aboutVilsonAsset from "@/assets/foto_frente_fundo_cinza.png.asset.json";
-
 const About = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -24,7 +22,7 @@ const About = () => {
             {/* Image */}
             <div>
               <img 
-                src={aboutVilsonAsset.url}
+                src="/lovable-uploads/foto_frente_fundo_cinza.png"
                 alt="Vilson Rauch - Estrategista Financeiro & Patrimonial da Valorum, especialista em Wealth Planning"
                 className="w-full rounded-lg shadow-xl object-contain"
                 loading="lazy"
