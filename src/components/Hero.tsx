@@ -18,7 +18,7 @@ const Hero = () => {
               {/* Decorative gold rectangle - offset bottom-right */}
               <div className="absolute -bottom-3 -right-3 w-20 h-20 border border-gold-500/30 rounded-sm" />
               <img 
-                src="/lovable-uploads/8c1233bc-8a84-4c25-856d-db026f518fa5.png" 
+                src="/lovable-uploads/vilson-rauch-hero.png" 
                 alt="Vilson Rauch - Estrategista Financeiro e Patrimonial"
                 className="relative w-full h-full rounded-sm object-cover object-top shadow-2xl"
                 style={{ objectPosition: 'center 15%', boxShadow: '0 0 60px rgba(191, 155, 81, 0.15)' }}
