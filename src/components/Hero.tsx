@@ -20,8 +20,8 @@ const Hero = () => {
               <img 
                 src="/lovable-uploads/vilson-rauch-hero.png" 
                 alt="Vilson Rauch - Estrategista Financeiro e Patrimonial"
-                className="relative w-full h-full rounded-sm object-cover object-top shadow-2xl"
-                style={{ objectPosition: 'center 15%', boxShadow: '0 0 60px rgba(191, 155, 81, 0.15)' }}
+                className="relative w-full h-full rounded-sm object-cover object-center shadow-2xl"
+                style={{ boxShadow: '0 0 60px rgba(191, 155, 81, 0.15)' }}
                 loading="eager"
                 decoding="sync"
               />
