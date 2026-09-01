@@ -2,11 +2,11 @@ const ValorumSection = () => {
   const links = [
     {
       label: "Valorum Investimentos e Patrimônio",
-      href: "https://valorum.vilsonrauch.com.br/",
+      href: "https://www.valorum.pro.br/",
     },
     {
       label: "Valorum BPO — Terceirização e Gestão do Financeiro",
-      href: "https://confiza.lovable.app/",
+      href: "https://www.norgiefinanceiro.com.br/",
     },
     {
       label: "Palestras",
