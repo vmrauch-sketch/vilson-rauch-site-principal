@@ -1,12 +1,16 @@
 const ValorumSection = () => {
   const links = [
     {
-      label: "Valorum Investimentos e Patrimônio",
+      label: "Investimentos e Patrimônio",
       href: "https://www.valorum.pro.br/",
     },
     {
-      label: "Valorum BPO — Terceirização e Gestão do Financeiro",
+      label: "BPO — Terceirização e Gestão do Financeiro",
       href: "https://www.norgiefinanceiro.com.br/",
+    },
+    {
+      label: "Pague o Menor Imposto do Jeito Certo",
+      href: "https://www.norgiecontabilidade.com.br/",
     },
     {
       label: "Palestras",
