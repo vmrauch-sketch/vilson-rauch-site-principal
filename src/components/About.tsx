@@ -23,7 +23,7 @@ const About = () => {
             <div>
               <img 
                 src="/lovable-uploads/foto_frente_fundo_cinza.png"
-                alt="Vilson Rauch - Estrategista Financeiro & Patrimonial da Valorum, especialista em Wealth Planning"
+                alt="Vilson Rauch - Estrategista Financeiro & Patrimonial, especialista em Wealth Planning"
                 className="w-full rounded-lg shadow-xl object-contain"
                 loading="lazy"
                 decoding="async"
@@ -36,7 +36,7 @@ const About = () => {
             {/* Content - Text alongside image */}
             <div className="space-y-8">
               <p className="text-lg text-gray-700 leading-relaxed">
-                🧭 Vilson Rauch é estrategista financeiro e patrimonial, consultor e fundador da Valorum, onde estrutura e orienta soluções para organização, gestão e crescimento financeiro de pessoas e empresas.
+                🧭 Vilson Rauch é estrategista financeiro e patrimonial, consultor, e estrutura e orienta soluções para organização, gestão e crescimento financeiro de pessoas e empresas.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
@@ -61,7 +61,7 @@ const About = () => {
           <div className="space-y-8">
             <p className="text-lg text-gray-700 leading-relaxed">
               🕰️ Mais de duas décadas de experiência na gestão de indústrias nacionais e multinacionais permitiram a Vilson desenvolver uma combinação única de pensamento estratégico e execução operacional, lidando com decisões complexas, alocação eficiente de recursos e gestão de riscos.<br />
-              Hoje, essa mesma lógica é aplicada na Valorum, orientando soluções patrimoniais, financeiras e empresariais voltadas à organização, proteção e crescimento, com eficiência fiscal e tributária, método e clareza — incluindo a estruturação e terceirização das rotinas financeiras, controladoria e tesouraria (BPO financeiro).
+              Hoje, essa mesma lógica orienta soluções patrimoniais, financeiras e empresariais voltadas à organização, proteção e crescimento, com eficiência fiscal e tributária, método e clareza — incluindo a estruturação e terceirização das rotinas financeiras, controladoria e tesouraria (BPO financeiro).
             </p>
 
             <p className="text-lg text-gray-700 leading-relaxed">
@@ -77,7 +77,7 @@ const About = () => {
             </p>
 
             <p className="text-lg text-gray-700 leading-relaxed">
-              🔑 Toda estratégia construída por Vilson reflete o mesmo princípio que sustenta a Valorum:<br />
+              🔑 Toda estratégia construída por Vilson reflete o mesmo princípio:<br />
               liberdade começa com consciência — e se realiza com escolhas estruturadas.
             </p>
 
