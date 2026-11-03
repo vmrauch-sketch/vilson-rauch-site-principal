@@ -1,4 +1,4 @@
-const ValorumSection = () => {
+const SolutionsSection = () => {
   return (
     <section className="pt-8 pb-16 bg-gradient-to-b from-gray-50 to-white">
       <div className="container mx-auto px-6 text-center">
@@ -27,4 +27,4 @@ const ValorumSection = () => {
   );
 };
 
-export { ValorumSection };
+export { SolutionsSection };
